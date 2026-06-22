@@ -1,6 +1,13 @@
 # Leetcode-Sync
 A tool to automate the uploads in my DSA_Journey repository.
-Built from Scratch
-Helped me in retriving the solutions manually and creating folders and then after so much hustle upload solutions for the 200+ problems I have solved on my leetcode.
-Automates my future submission updates too.
-Keeps a track of the Questions in the order of their difficulty
+
+Features:
+  Fetches accepted LeetCode submissions
+  Organizes by difficulty (Easy, Medium, Hard)
+  Uses LeetCode question IDs in filenames
+  Includes topic tags in filenames
+  Stores multiple accepted solutions as Method 1, Method 2, ...
+  Supports multiple languages in one file
+  Automatically commits and pushes changes to GitHub
+  Avoids duplicate solutions
+  Retries failed network requests
